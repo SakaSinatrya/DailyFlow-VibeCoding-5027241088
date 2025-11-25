@@ -196,3 +196,32 @@ http://localhost:3000
 
 ---
 
+# Dokumentasi 
+
+## Login
+<img width="2865" height="1543" alt="Image" src="https://github.com/user-attachments/assets/14e7d746-49e7-4068-af02-37247170aed4" />
+
+## Dashboard
+<img width="2868" height="1547" alt="Image" src="https://github.com/user-attachments/assets/6d4fccbd-280f-4fa1-8204-63c090a89e25" />
+
+## Dasboard Dark Mode
+<img width="2866" height="1548" alt="Image" src="https://github.com/user-attachments/assets/12843919-e5b1-40f3-96d6-e52fce4dfa02" />
+
+## Tambah Pengeluaran
+<img width="2868" height="1550" alt="Image" src="https://github.com/user-attachments/assets/a8c1208c-2ae3-4010-b865-80d418fe029d" />
+
+## Lihat Pengeluaran
+<img width="2878" height="1550" alt="Image" src="https://github.com/user-attachments/assets/e6ede2b9-1f70-4d5e-8e0b-1c272e46acd6" />
+
+## Ringkasan Pengeluaran
+<img width="2857" height="1546" alt="Image" src="https://github.com/user-attachments/assets/1ef663b5-e95f-4377-901b-0354ea4b6875" />
+
+## Tambah Tugas
+<img width="2870" height="1550" alt="Image" src="https://github.com/user-attachments/assets/0f33686f-1235-4c33-bc99-cb5448267e1d" />
+
+## Tugas Hari ini
+<img width="2871" height="1549" alt="Image" src="https://github.com/user-attachments/assets/1cc98fa2-a9d8-453e-a149-7412aca3549e" />
+
+## Lihat Tugas Mingguan
+<img width="2864" height="1548" alt="Image" src="https://github.com/user-attachments/assets/5d055552-2c72-4a31-9371-c782d5600da5" />
+
