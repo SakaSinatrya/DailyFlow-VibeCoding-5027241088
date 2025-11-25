@@ -1,20 +1,37 @@
 # DailyFlow
-### I Gede Bagus Saka Sinatrya - 5027241088
+| Nama                          | NRP        |
+|-------------------------------|------------|
+| I Gede Bagus Saka Sinatrya    | 5027241088 |
 
-# DailyFlow – Personal Productivity & Task Management System
+# DailyFlow – Personal Productivity, Expense Tracking & Task Management System
+DailyFlow adalah aplikasi web modern yang membantu pengguna mengelola pengeluaran, tugas harian, serta aktivitas produktivitas dalam satu platform terintegrasi. Aplikasi ini menggabungkan frontend interaktif (Next.js + React) dengan backend API (Node.js + Express + MongoDB), menjadikannya sistem manajemen produktivitas yang lengkap, responsif, dan mudah digunakan.
 
-DailyFlow adalah aplikasi web modern yang membantu pengguna mengelola tugas, aktivitas harian, dan data produktivitas dalam satu platform terintegrasi. Aplikasi ini menggabungkan frontend interaktif (Next.js + React) dengan backend API (Node.js + Express + MongoDB), sehingga cocok sebagai sistem manajemen produktivitas yang lengkap, modern, dan responsif.
+DailyFlow menyediakan dua fitur utama:
+- Expense Tracker, yang memungkinkan pengguna mencatat, memvisualisasikan, dan memahami pola keuangan harian secara jelas dan terstruktur.
+- Task Manager / To-Do List, yang memudahkan pengguna mengatur tugas, memprioritaskan kegiatan, serta melacak progres harian dengan lebih efektif.
+
+Dengan integrasi penuh antara backend dan frontend, DailyFlow menjadi pusat kendali harian yang membantu pengguna tetap terorganisir, produktif, dan sadar terhadap kondisi finansialnya.
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Problem Statement 
 
+### To do List
 Dalam aktivitas harian, banyak pengguna menghadapi masalah seperti:
 
 * **Tugas yang tercecer** antara catatan, screenshot, WhatsApp, dan file lokal.
 * **Kesulitan memantau progres** karena tidak ada dashboard terpadu.
 * **Tidak ada integrasi antara aktivitas harian dengan data profil pengguna.**
 * **Keterbatasan aplikasi to-do list biasa**, seperti tidak mendukung upload file atau kategori khusus.
+  
+### Expense Tracker
+Dalam aktivitas harian, banyak pengguna menghadapi masalah dalam mencatat pengeluaran seperti:
+
+* Banyak pengguna tidak memiliki catatan pengeluaran yang terpusat.
+* Data pengeluaran sering tersebar di chat, catatan, atau hanya mengandalkan ingatan.
+* Tidak ada rekap atau grafik sehingga sulit melihat pola pengeluaran.
+* Pengguna sering melewati budget karena tidak ada pemantauan rutin.
+* Pengeluaran kecil sering terlupakan dan tidak tercatat. 
 
 DailyFlow diciptakan untuk menjawab tantangan-tantangan tersebut dengan menyediakan sistem yang rapi, terpusat, dan mudah digunakan.
 
@@ -108,7 +125,6 @@ DailyFlow menawarkan pengalaman produktivitas menyeluruh melalui fitur-fitur ber
 
 ---
 
----
 
 ## ⚙️ Cara Menjalankan Project (Development Setup)
 
