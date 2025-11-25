@@ -179,7 +179,7 @@ npm install
 ### Buat file `.env.local`:
 
 ```
-NEXT_PUBLIC_API_URL=http://localhost:5000
+NEXT_PUBLIC_API_URL=http://localhost:4000/api
 ```
 
 ### Jalankan frontend:
