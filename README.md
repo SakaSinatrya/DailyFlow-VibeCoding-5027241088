@@ -1,2 +1,182 @@
 # DailyFlow
 ### I Gede Bagus Saka Sinatrya - 5027241088
+
+# DailyFlow – Personal Productivity & Task Management System
+
+DailyFlow adalah aplikasi web modern yang membantu pengguna mengelola tugas, aktivitas harian, dan data produktivitas dalam satu platform terintegrasi. Aplikasi ini menggabungkan frontend interaktif (Next.js + React) dengan backend API (Node.js + Express + MongoDB), sehingga cocok sebagai sistem manajemen produktivitas yang lengkap, modern, dan responsif.
+
+---
+
+## 🎯 Problem Statement
+
+Dalam aktivitas harian, banyak pengguna menghadapi masalah seperti:
+
+* **Tugas yang tercecer** antara catatan, screenshot, WhatsApp, dan file lokal.
+* **Kesulitan memantau progres** karena tidak ada dashboard terpadu.
+* **Tidak ada integrasi antara aktivitas harian dengan data profil pengguna.**
+* **Keterbatasan aplikasi to-do list biasa**, seperti tidak mendukung upload file atau kategori khusus.
+
+DailyFlow diciptakan untuk menjawab tantangan-tantangan tersebut dengan menyediakan sistem yang rapi, terpusat, dan mudah digunakan.
+
+---
+
+## 🚀 Solution Overview
+
+DailyFlow menawarkan pengalaman produktivitas menyeluruh melalui fitur-fitur berikut:
+
+###  **Task Management**
+
+* Tambah tugas baru beserta prioritas
+* Tandai tugas selesai / penting
+* Kelompokkan berdasarkan kategori
+* Upload file yang terkait tugas
+
+### **Expense Tracking**
+
+* Tambah pengeluaran harian
+* Kategori pengeluaran
+* Grafik pengeluaran pendidikan, kebutuhan, hiburan, dll.
+* Dashboard overview pengeluaran bulanan
+
+### **User Profile Management**
+
+* Update nama, email
+* Upload foto profil
+
+### **Dashboard Analytics**
+
+* Visualisasi grafik tugas & pengeluaran
+* Status progres harian
+* Peringatan aktivitas
+
+### **File Upload System**
+
+* Upload gambar (PNG, JPG)
+* Semua file disimpan aman di backend
+
+---
+
+## Tech Stack
+
+### **Frontend**
+
+* Next.js / React.js
+* Axios
+* Tailwind / CSS Modules
+* Context API Authentication
+* lucide-react icons
+
+### **Backend**
+
+* Node.js (Express.js)
+* JWT Authentication
+* Mongoose ODM
+
+### **Database**
+
+* MongoDB Compass
+
+---
+
+## 📦 Fitur Utama
+
+### **Authentication**
+
+* Register
+* Login
+* JWT-based Auth
+* Protected Routes (Frontend + Backend)
+
+### **Tasks Module**
+
+* CRUD Tugas
+* Prioritas (High/Medium/Low)
+* Status: Completed / Pending
+* Upload Lampiran
+
+### **Expense Module**
+
+* CRUD Pengeluaran
+* Kategori & Deskripsi
+* Grafik Visualisasi Pengeluaran
+
+### **Profile Module**
+
+* Update profil
+* Ubah foto
+* Validasi email & input
+
+---
+
+---
+
+## ⚙️ Cara Menjalankan Project (Development Setup)
+
+---
+
+# 1. Setup Backend
+
+Masuk ke folder backend:
+
+```
+cd backend
+npm install
+```
+
+### Buat file `.env`:
+
+```
+PORT=5000
+MONGO_URI=your_mongo_atlas_url
+JWT_SECRET=your_jwt_secret
+```
+
+### Buat folder untuk upload file:
+
+```
+/backend/uploads
+```
+
+### Jalankan server:
+
+```
+npm run dev
+```
+
+Backend berjalan di:
+
+```
+http://localhost:5000
+```
+
+---
+
+# 2. Setup Frontend
+
+Masuk ke folder frontend:
+
+```
+cd frontend
+npm install
+```
+
+### Buat file `.env.local`:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:5000
+```
+
+### Jalankan frontend:
+
+```
+npm run dev
+```
+
+Aplikasi berjalan di:
+
+```
+http://localhost:3000
+```
+
+---
+
