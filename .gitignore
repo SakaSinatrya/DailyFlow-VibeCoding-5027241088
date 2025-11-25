@@ -1,0 +1,60 @@
+# ============================================
+# Node & General
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Environment Files (VERY IMPORTANT)
+# ============================================
+.env
+.env.*
+!.env.example
+frontend/.env*
+backend/.env*
+
+# ============================================
+#(React Frontend)
+# ============================================
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+
+
+# ============================================
+# Backend (Express)
+# ============================================
+backend/node_modules/
+backend/build/
+backend/dist/
+backend/uploads/
+
+# ============================================
+# Logs & Cache
+# ============================================
+logs/
+logs/*.log
+*.log
+.cache/
+frontend/.cache/
+backend/.cache/
+
+# ============================================
+# OS & Editor
+# ============================================
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+
+# ============================================
+# TypeScript build artifacts
+# ============================================
+*.tsbuildinfo
